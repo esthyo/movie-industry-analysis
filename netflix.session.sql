@@ -161,12 +161,12 @@ GROUP BY release_year
 ORDER BY sum_revenue DESC;
 
 --Top Genres by Box Office Revenue
-SELECT DISTINCT(g.genre_name), SUM(m.box_office_revenue)
+SELECT DISTINCT(g.genre_name), SUM(m.box_office_revenue) AS sum_revenue
 FROM movie_table m
 JOIN genre_table g
 ON m.genre_id = g.genre_id
 GROUP BY g.genre_name
-ORDER BY g.genre_name DESC;
+ORDER BY sum_revenue DESC;
 
 
 

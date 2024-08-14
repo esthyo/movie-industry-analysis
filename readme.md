@@ -45,12 +45,12 @@ The analysis of box office revenue over time revealed several key trends:
 
 The analysis identified the following genres as the top earners in terms of box office revenue:
 
-1. **Thriller**
-2. **Romance**
-3. **Horror**
-4. **Drama**
-5. **Comedy**
-6. **Action**
+1. **Horror $6,467,297,553**
+2. **Romance $61,461,046,142**
+3. **Drama $58,162,885,346**
+4. **Comedy $54,705,323,064**
+5. **Action $53,757,798,772**
+6. **Thriller $50,646,187,673**
 
 ### Director Impact on Box Office Revenue
 
